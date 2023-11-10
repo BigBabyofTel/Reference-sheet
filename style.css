@@ -1,0 +1,36 @@
+h1{
+    color:blue;
+    text-align: center;
+    width: 900px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(/images/hypertext\ background.jpg);
+}
+tr{
+    text-align: center;
+}
+thead{
+    text-align: center;
+    background: yellow;
+}
+p{
+    text-align: center;
+    border: solid red 5px;
+    margin-left: 22%;
+    margin-right: 22%;
+    font-si
+}
+.space{
+    width: 120px;
+}
+table{
+    text-align: center;
+    border: solid blue 10px;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+}
+td{
+    background-color: hsl(240, 50%, 80%)
+}
