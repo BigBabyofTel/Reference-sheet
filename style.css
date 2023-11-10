@@ -1,4 +1,4 @@
-h1{
+h1 {
     color:blue;
     text-align: center;
     width: 900px;
@@ -7,30 +7,31 @@ h1{
     margin-right: auto;
     background-image: url(/images/hypertext\ background.jpg);
 }
-tr{
+tr {
     text-align: center;
 }
 thead{
     text-align: center;
     background: yellow;
 }
-p{
+
+p {
     text-align: center;
     border: solid red 5px;
     margin-left: 22%;
     margin-right: 22%;
-    font-si
 }
-.space{
+.space {
     width: 120px;
 }
-table{
+
+table {
     text-align: center;
     border: solid blue 10px;
     width: 55%;
     margin-left: auto;
     margin-right: auto;
 }
-td{
+td {
     background-color: hsl(240, 50%, 80%)
 }
