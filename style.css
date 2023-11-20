@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     font-size: 16px;
+    border: 2px solid red;
 }
 .header {
     position: absolute;
@@ -51,7 +52,10 @@ h1 {
 .tablehead {
     background-color: lightskyblue;
 }
-
+.table {
+    margin-left: auto;
+    margin-right: auto;
+}
 .table td {
     border: 4px solid lightskyblue;
     text-align: center;
