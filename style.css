@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
     font-size: 16px;
-    border: 2px solid red;
 }
 .header {
     position: absolute;
