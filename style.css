@@ -40,7 +40,7 @@ h1 {
     margin-left: 1rem;
     font-size: 2rem;
 }
-.firstlabel {
+.label {
     background-color: lightskyblue;
     margin: 1rem;
 }
@@ -62,4 +62,73 @@ h1 {
 }
 .table img {
     width: 25rem;
+}
+.square {
+    display: inline-flex;
+    background-color: blue;
+    height: 8rem;
+    width: 8rem;
+}
+.datatype {
+    text-align: center;
+    margin: auto;
+    color: black;
+    padding: rem;
+}
+.tri{
+    position: absolute;
+    bottom: 8.6rem;
+    right: 24.60rem;
+}
+.circle {
+    display: inline-flex;
+    background-color: red;
+    height: 8rem;
+    width: 8rem;
+    border-radius: 100%;
+}
+.triangle {
+    display: inline-flex;
+    background-color: transparent;
+    width: 0;
+    height: 0;
+    border-left: 4rem solid transparent;
+    border-right: 4rem solid transparent;
+    border-top: 7rem solid orange;
+}
+.rectangle {
+    display: inline-flex;
+    background-color: yellow;
+    width: 10rem;
+    height: 5rem;
+}
+.oval {
+    display: inline-flex;
+    width: 10rem;
+    height: 7rem;
+    border-radius: 50%;
+    background-color: purple;
+}
+.parallelogram {
+    display: inline-flex;
+    background-color: seagreen;
+    width: 8em; height: 8em;
+    overflow: hidden;
+    transform: skewX(30deg)
+               scaleY(.866);
+}
+.rectangle2 {
+    display: inline-flex;
+    background-color: green;
+    width: 5rem;
+    height: 10rem;
+}
+.square, .circle, .triangle, .rectangle, .oval, .parallelogram {
+    margin: 1rem;
+}
+.shapecontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
 }
