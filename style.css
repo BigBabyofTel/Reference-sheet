@@ -76,7 +76,7 @@ h1 {
     padding: rem;
 }
 .tri{
-    position: absolute;
+    position: relative;
     bottom: 8.6rem;
     right: 24.60rem;
 }
